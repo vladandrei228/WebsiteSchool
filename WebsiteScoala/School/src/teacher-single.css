@@ -1,0 +1,338 @@
+.pager-section {
+  background: url(/img/pager-bg.png), #f2f7fd;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  padding: 75px 0 85px;
+}
+
+.pager-section .pager-content {
+  position: relative;
+  z-index: 99;
+}
+
+.pager-section .pager-content > h2 {
+  color: #2b2b2b;
+  font-size: 65px;
+  text-transform: capitalize;
+  font-weight: 400;
+  margin-bottom: 6px;
+}
+
+.pager-section .pager-content > ul li {
+  display: inline-block;
+  position: relative;
+  padding: 0 12px;
+}
+
+.pager-section .pager-content > ul li::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: 1px;
+  height: 15px;
+  margin-left: 2px;
+  background-color: #575757;
+  transform: translateY(-50%);
+  margin-top: 2px;
+}
+
+.pager-section .pager-content > ul li a,
+.pager-section .pager-content > ul li span {
+  display: inline-block;
+  color: #575757;
+  font-size: 14.23px;
+}
+
+.pager-section .page-titlee {
+  color: #f37335;
+  font-size: 162.6px;
+  font-weight: 600;
+  opacity: 0.1;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.page-content {
+  padding: 140px 0;
+}
+
+.teacher-single-page {
+  margin-bottom: 44px;
+}
+
+.teacher-single-page .teacher-coly {
+  position: relative;
+}
+
+.teacher-single-page .teacher-coly > img {
+  max-width: 100%;
+}
+
+.teacher-single-page .teacher-coly .social-icons {
+  text-align: center;
+  position: relative;
+  top: -25px;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.teacher-single-page .teacher-coly .social-icons li a {
+  background: inherit;
+  position: relative;
+  z-index: 1;
+  transition: all 0.4s ease-in-out;
+}
+
+.social-icons li a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50px;
+  text-align: center;
+  background: linear-gradient(270deg, #159957, #155799);
+  color: #fff;
+  font-size: 24px;
+}
+
+.teacher-single-page .teacher-coly .social-icons li a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(180deg, #fdc830, #f37335);
+  height: 100%;
+  z-index: -1;
+  border-radius: 50%;
+  transition: all 0.4s ease-in-out;
+}
+
+.teacher-single-page .teacher-content {
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+.teacher-single-page .teacher-content > h3 {
+  color: #f37335;
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 21px;
+}
+
+.teacher-single-page .teacher-content .rol-z {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.teacher-single-page .teacher-content .rol-z .rol-info {
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+
+.teacher-single-page .teacher-content .rol-z .rol-info h3 {
+  color: #2b2b2b;
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+
+.teacher-single-page .teacher-content .rol-z .rol-info span {
+  display: block;
+  color: #575757;
+  font-size: 14px;
+}
+
+.teacher-single-page .teacher-content .rol-z.style2 .rol-info h3 {
+  font-size: 18px;
+  color: #2b2b2b;
+  line-height: 20px;
+}
+
+.teacher-single-page .teacher-content p {
+  color: #575757;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 33px;
+  max-width: 600px;
+}
+
+.teacher-single-page .teacher-content .tech-details {
+  max-width: 460px;
+  background-color: #fff;
+  border: 1px solid #e9723a;
+  border-radius: 20px;
+  padding: 40px;
+  margin-bottom: 25px;
+  background-repeat: no-repeat;
+  background-position: 4px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.teacher-single-page .teacher-content .tech-details::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 145px;
+  width: 48px;
+  height: 24px;
+  background-image: url(/img/circle3.png);
+  background-repeat: no-repeat;
+}
+
+.teacher-single-page .teacher-content .tech-details li {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 13px;
+}   
+
+.teacher-single-page .teacher-content .tech-details li h3 {
+  display: inline-block;
+  color: #575757;
+  font-size: 14px;
+  font-style: italic;
+  width: 145px;
+}
+
+.teacher-single-page .teacher-content .tech-details li span {
+  display: inline-block;
+  color: #155799;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.teacher-single-page .teacher-content .tech-details::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: -7px;
+  width: 73px;
+  height: 71px;
+  background-image: url(/img/circle4.png);
+  background-repeat: no-repeat;
+}
+
+.teacher-single-page .teacher-content .skill-tech {
+  max-width: 600px;
+  margin-bottom: 25px;
+}
+
+.teacher-single-page .teacher-content .skill-tech > h3 {
+  color: #2b2b2b;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+
+.teacher-single-page .teacher-content .skill-tech .progress-row {
+  position: relative;
+  margin-bottom: 13px;
+}
+
+.teacher-single-page .teacher-content .skill-tech .progress-row h3 {
+  color: #2b2b2b;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 9px;
+}
+
+.teacher-single-page .teacher-content .skill-tech .progress-row .progress {
+  position: relative;
+  height: 16px;
+  border-radius: 30px;
+}
+
+.progress .progress-bar {
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
+.progress {
+  height: 1rem;
+  line-height: 0;
+  font-size: 0.75rem;
+  background-color: #e9ecef;
+  border-radius: 0.25rem;
+}
+
+.teacher-single-page .teacher-content .skill-tech .progress-row .progress .progress-bar.bg-clr1 {
+  background-color: #f45905;
+}
+
+.progress-bar {
+  transition-duration: 3s;
+}
+
+.slideInLeft {
+  animation-name: ub;
+}
+
+.progress-bar {
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #007bff;
+  transition: width 0.6s ease;
+}
+
+.progress,
+.progress-bar {
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
+.teacher-single-page .teacher-content .skill-tech .progress-row > span {
+  color: #575757;
+  font-size: 14px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.teacher-single-page
+  .teacher-content
+  .skill-tech
+  .progress-row
+  .progress
+  .progress-bar.bg-clr2 {
+  background-color: #155799;
+}
+
+.teacher-single-page
+  .teacher-content
+  .skill-tech
+  .progress-row
+  .progress
+  .progress-bar.bg-clr3 {
+  background-color: #fdc830;
+}
+
+.teacher-single-page
+  .teacher-content
+  .skill-tech
+  .progress-row
+  .progress
+  .progress-bar.bg-clr4 {
+  background-color: #159957;
+}

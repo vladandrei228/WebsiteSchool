@@ -1,0 +1,61 @@
+.page-content .teachers-section {
+    padding-bottom: 0;
+
+}
+
+.teachers-section{
+    padding: 45px 0 138px;
+}
+
+.p-0 {
+    padding: 0!important;
+}
+
+.page-content .teachers-section .teacher {
+    margin-bottom: 36px;
+}
+
+.teachers-section .teacher .page-content .teacher-img{
+    margin-bottom: 13px;
+    position: relative;
+}
+
+.teachers-section .teacher .teachers .teacher-img>img {
+    border-radius: 25px;
+}
+
+.w-100{
+    width: 100%!important;
+}
+
+img {
+    vertical-align: middle;
+    height: auto;
+}
+
+.teachers-section .teachers .teacher .teacher-img .sc-div {
+    position: absolute;
+    bottom: -20px;
+    right: 20px;
+    width: 40px;
+    background: linear-gradient(180deg, #fdc830, #f37335);
+    z-index: 99;
+    text-align: center;
+    border-radius: 30;
+    padding: 8px 0 11px;
+}
+
+.fab {
+    font-family: Font Awesome\ 5 Brands;
+    font-weight: 400;
+}
+
+.fa, .fab, .fad, .fal, .far, .fas {
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
